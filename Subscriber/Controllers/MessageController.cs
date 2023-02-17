@@ -27,7 +27,7 @@ namespace Subscriber.Controllers
         }
 
 
-        [Topic("pubsub", "mytopic")] // Reemplaza con el nombre de tu pubsub y topic
+        [Topic("mmunguia", "mytopic")] // Reemplaza con el nombre de tu pubsub y topic
         [HttpPost("mytopic")]
         public void HandleMessageAsync([FromBody] string message)
         {
@@ -35,6 +35,10 @@ namespace Subscriber.Controllers
 
 
         }
+
+
+
+
     }
 
 }

@@ -1,9 +1,11 @@
 ﻿apiVersion: dapr.io/v1alpha1
 kind: Component
 metadata:
-  name: azure-service-bus
+  name: mmunguia
 spec:
   type: pubsub.azure.servicebus
   metadata:
-    - name: connectionString
-      value: <your-connection-string>
+  - name: connectionString
+    value: "Endpoint=sb://mmunguia.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=LEGyNPrJqGKWPTjpQNqdIu5Ak5VNowPh4+ASbCQRNqs="
+  - name: subscriber
+    value: mytopic

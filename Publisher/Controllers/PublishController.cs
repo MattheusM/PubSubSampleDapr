@@ -27,7 +27,7 @@ namespace Publisher.Controllers
         [HttpPost("messages")]
         public async Task<ActionResult> PublishMessageAsync([FromBody]string message)
         {
-            var pubsubName = "pubsub"; // Reemplaza con el nombre de tu pubsub
+            var pubsubName = "mmunguia"; // Reemplaza con el nombre de tu pubsub
             var topicName = "mytopic"; // Reemplaza con el nombre de tu topic
 
             await _daprClient.PublishEventAsync(pubsubName,topicName,message);
