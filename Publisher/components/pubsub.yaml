@@ -8,12 +8,7 @@ spec:
   metadata:
     - name: connectionString
       value: "Endpoint=sb://mmunguia.servicebus.windows.net/;SharedAccessKeyName=mykey;SharedAccessKey=m8WI3oK59YCgBOCi8DDnKT/AztqlryezG+ASbE/REQA=;EntityPath=mmunguia"
-    - name: topic
-      value: mytopic1
     - name: disableEntityManagement 
       value: "true"
     - name: publishMaxRetries 
       value: 2
- 
-
-

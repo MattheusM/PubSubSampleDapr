@@ -17,9 +17,11 @@
     <None Remove="Dapr.Client" />
     <None Remove="Dapr.AspNetCore" />
     <None Remove="components\" />
+    <None Remove="rabbitmqcomponents\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="components\" />
+    <Folder Include="rabbitmqcomponents\" />
   </ItemGroup>
 </Project>

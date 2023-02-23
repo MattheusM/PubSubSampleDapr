@@ -11,5 +11,5 @@ spec:
     value: "Endpoint=sb://mmunguia.servicebus.windows.net/;SharedAccessKeyName=mykey;SharedAccessKey=m8WI3oK59YCgBOCi8DDnKT/AztqlryezG+ASbE/REQA=;EntityPath=mmunguia"
   - name: disableEntityManagement
     value: "true"
-  - name: consumerID  # Optional: defaults to the app's own ID
-    value: sbs-dapr1
+  - name: consumerID    # Optional: defaults to the app's own ID
+    value: sbs-dapr1 

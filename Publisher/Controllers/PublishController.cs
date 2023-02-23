@@ -31,7 +31,7 @@ namespace Publisher.Controllers
             var topicName = "mytopic1"; // Reemplaza con el nombre de tu topic
 
             await _daprClient.PublishEventAsync(pubsubName,topicName,message);
-           
+      
           
             return Ok();
         }
