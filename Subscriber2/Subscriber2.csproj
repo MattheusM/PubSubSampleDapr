@@ -16,8 +16,10 @@
     <None Remove="Dapr.Client" />
     <None Remove="Dapr.AspNetCore" />
     <None Remove="Controllers\" />
+    <None Remove="components\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="components\" />
   </ItemGroup>
 </Project>

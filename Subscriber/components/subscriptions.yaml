@@ -1,9 +1,0 @@
-﻿#apiVersion: dapr.io/v1alpha1
-#kind: Subscription
-#metadata:
- # name: sbs-dapr1
-#spec:
- # topic: mytopic
-  #route: /mytopic
-  #pubsubname: mmunguia
-

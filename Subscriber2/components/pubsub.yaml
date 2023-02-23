@@ -12,4 +12,5 @@ spec:
   - name: disableEntityManagement
     value: "true"
   - name: consumerID  # Optional: defaults to the app's own ID
-    value: sbs-dapr1
+    value: "sbs-dapr2"
+ 
