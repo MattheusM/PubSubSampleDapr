@@ -4,7 +4,7 @@ DESDE TERMINAL SUBSCRIBER:  dapr run --app-id subscriber --app-port 6007 --resou
 DESDE TERMINAL SUBSCRIBER1:  dapr run --app-id subscriber1 --app-port 7010  --resources-path ./components/ -- dotnet run
 
 
-despues acceder a http://localhost:3501/swagger/
+despues acceder a http://localhost:5007/swagger/
 y mirar la terminal
 
 NO OLVIDA TENER DOCKER ENCENDIDO Y EJECUTAR EL COMANDO (dapr init`)
