@@ -13,4 +13,3 @@ spec:
     value: "true"
   - name: consumerID  # Optional: defaults to the app's own ID
     value: "sbs-dapr2"
- 
